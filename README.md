@@ -12,7 +12,7 @@ You need to augment your data in two different ways and save them in the *'augme
 Before training, you need to build the moco_model with *mkdir moco_model*
 
 #### Train
-You need to change the number of negtive samples in MOCO.py *line 85* , you can also change the epoch: *line *, batch size:*line 43*, learning rate:*line 48*.
+You need to change the number of negtive samples in MOCO.py *line 84* , you can also change the epoch: *line 41*, batch size:*line 45*, learning rate:*line 50*, and temperature: *line 90*
 
 You can train on the MOCO task with:
 
