@@ -140,13 +140,3 @@ Once you have exported submission predictions for each task, you should have 11 
 Next run `zip -j -D submission.zip *.tsv` in the folder to generate the submission zip file. Upload the zip file to [https://gluebenchmark.com/submit](https://gluebenchmark.com/submit) to submit to the leaderboard.
 
 
-
-@article{phang2018stilts,
-  title={Sentence Encoders on STILTs: Supplementary Training on Intermediate Labeled-data Tasks},
-  author={Phang, Jason and F\'evry,, Thibault and Bowman, Samuel R.},
-  journal={arXiv preprint arXiv:1811.01088v2},
-  year={2018}
-}
-```
->>>>>>> layout
-
