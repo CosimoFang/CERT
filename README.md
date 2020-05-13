@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # BERT on MOCO
 
 This repository contains code for [BERT on STILTs](https://arxiv.org/abs/1811.01088v2). It is a fork of the [Hugging Face implementation of BERT](https://github.com/huggingface/pytorch-pretrained-BERT).
