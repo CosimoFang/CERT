@@ -1,7 +1,3 @@
-ssh: connect to host github.com port 22: Connection timed out
-fatal: Could not read from remote repository.
-#!/usr/bin/env python
-# Copyright (c) Facebook, Inc. and its affiliates. All Rights Reserved
 from transformers import BertTokenizer
 import argparse
 import builtins
