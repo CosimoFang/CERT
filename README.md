@@ -2,21 +2,6 @@
 
 This repository contains code for [BERT on STILTs](https://arxiv.org/abs/1811.01088v2). It is a fork of the [Hugging Face implementation of BERT](https://github.com/huggingface/pytorch-pretrained-BERT).
 
-## Trained Models
-
-| Base Model  | Target Task | Download | bert Score | cert Score |
-| :---: | :---: | :---: | :---: | :---: |
-| BERT-Large   | **CoLA**   | N/A | 60.9 | 62.8 |
-| BERT-Large   | **SST**    | N/A | - | - |
-| BERT-Large   | **MRPC**   | N/A | - | - |
-| BERT-Large   | **STS-B**  | N/A | - | - |
-| BERT-Large   | **QQP**    | N/A | - | - |
-| BERT-Large   | **MNLIm**   | N/A | - | - | 
-| BERT-Large   | **MNLImm**   | N/A | - | - | 
-| BERT-Large   | **QNLI**   | N/A | 92.1 | 92.5 |
-| BERT-Large   | **RTE**    | N/A | 72.1 | 74.0 |
-| BERT-Large   | WNLI*     | N/A | - | - |
-
 
 ## MOCO task
 
