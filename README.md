@@ -39,7 +39,7 @@ You will also need to set the two following environment variables:
 * `BERT_ALL_DIR`: Set `BERT_ALL_DIR=/PATH_TO_THIS_REPO/cache/bert_metadata` 
     * For mor general use: `BERT_ALL_DIR` should point to the location of BERT downloaded from [here](https://storage.googleapis.com/bert_models/2018_10_18/uncased_L-24_H-1024_A-16.zip). Importantly, the `BERT_ALL_DIR` needs to contain the files `uncased_L-24_H-1024_A-16/bert_config.json` and `uncased_L-24_H-1024_A-16/vocab.txt`.
   
- You can also change the dataset: *line* and the epoch: *line*:
+ You can also change the dataset: *line24* and the epoch: *line89*:
 
 ##### Example 1: Generating Predictions
 
@@ -51,7 +51,7 @@ export TASK=rte
 export BERT_LOAD_PATH=path/to/mnli__rte.p
 export OUTPUT_PATH=rte_output
 
-python glue/train.py \
+python train.py \
     --task_name $TASK \
     --do_val --do_test \
     --do_lower_case \
@@ -71,7 +71,7 @@ export GLUE_DIR=./data/MNLI                                                     
 export TASK=mnli
 export OUTPUT_PATH=mnli_output
 
-python glue/train.py \
+python train.py \
     --task_name $TASK \
     --do_train --do_val --do_test --do_val_history \
     --do_save \
@@ -93,7 +93,7 @@ export PRETRAINED_MODEL_PATH=/path/to/moco.p
 export TASK=rte
 export OUTPUT_PATH=rte_output
 
-python glue/train.py \
+python train.py \
     --task_name $TASK \
     --do_train --do_val --do_test --do_val_history \
     --do_save \
@@ -106,7 +106,7 @@ python glue/train.py \
     --learning_rate 2e-5 \
     --output_dir $OUTPUT_PATH
 ``` 
-
+You can take #####example.sh as an example.
 
 ## Submission to GLUE leaderboard
 
