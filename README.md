@@ -17,7 +17,7 @@ You need to change the number of negtive samples in MOCO.py *line 84* , you can 
 
 You can train on the MOCO task with:
 
-*python MOCO.py*
+*CUDA_VISIBLE_DEVICES=0 python MOCO.py*
 
 #### Transform Model
 
@@ -31,7 +31,7 @@ After training, you can extract encoder_k from the whole model with
 
 #### Preparation
 
-You will need to download the GLUE data to run our tasks. See [here](https://github.com/jsalt18-sentence-repl/jiant#downloading-data).
+You will need to download the GLUE data to run our tasks. See [here](https://gluebenchmark.com/tasks).
 
 You will also need to set the two following environment variables:
 
@@ -64,6 +64,7 @@ python glue/train.py \
 We recommend training with a batch size of 16/24/32.
 
 ```bash
+export GLUE_DIR=./data/MNLI                                                                                                export BERT_ALL_DIR=./   
 export TASK=mnli
 export OUTPUT_PATH=mnli_output
 
@@ -84,6 +85,7 @@ python glue/train.py \
 ##### Example 3: Fine-tuning from MOCO model
 
 ```bash
+export GLUE_DIR=./data/RTE
 export PRETRAINED_MODEL_PATH=/path/to/moco.p
 export TASK=rte
 export OUTPUT_PATH=rte_output
