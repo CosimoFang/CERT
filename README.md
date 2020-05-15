@@ -17,6 +17,19 @@ This repository contains code for [BERT on STILTs](https://arxiv.org/abs/1811.01
 | BERT-Large   | **RTE**    | [Link](https://drive.google.com/file/d/1YIYiqcBTXRCMh8gvKnGCO0mXuhR6PnKF/view?usp=sharing) | 72.1 | 74.0 |
 | BERT-Large   | WNLI*     | N/A | - | - |
 
+
+| Base Model | Intermediate Task | Target Task | Download | Val Score | Test Score |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| BERT-Large   | -        | **CoLA**   | [Link](https://drive.google.com/file/d/1bYuvIrnYjI-22xd6koYdDlkgLMtN6Uey/view?usp=sharing) | 65.3 | 61.2 |
+| BERT-Large   | **MNLI** | **SST**    | [Link](https://drive.google.com/file/d/1M0ubTzGO4oNC7szc6bRxMIf81iTWgAPL/view?usp=sharing) | 93.9 | 95.1 |
+| BERT-Large   | **MNLI** | **MRPC**   | [Link](https://drive.google.com/file/d/1b0FdK-95yLk_P2ro009opSRX6GgwegGB/view?usp=sharing) | 90.4 | 88.6 |
+| BERT-Large   | **MNLI** | **STS-B**  | [Link](https://drive.google.com/file/d/1VWZbqFvM2myLoE2-uVh-KtAUmhgS9anb/view?usp=sharing) | 90.7 | 89.0 |
+| BERT-Large   | -        | **QQP**    | [Link](https://drive.google.com/file/d/1d5KMckz2txwYtE_wGL6g8591nGFw9Vid/view?usp=sharing) | 90.0 | 81.2 |
+| BERT-Large   | -        | **MNLI**   | [Link](https://drive.google.com/file/d/1na4cULKs5qe9odhF0qA-x4H2ZZKXNl7N/view?usp=sharing) | 86.7 | 86.2 | 
+| BERT-Large   | **MNLI** | **QNLI**   | [Link](https://drive.google.com/file/d/1cHehR1PXxQ38UrKBdzwUCykZcKoIUeCv/view?usp=sharing) | 92.3 | 92.8 |
+| BERT-Large   | **MNLI** | **RTE**    | [Link](https://drive.google.com/file/d/1YIYiqcBTXRCMh8gvKnGCO0mXuhR6PnKF/view?usp=sharing) | 84.1 | 79.0 |
+| BERT-Large   | -        | WNLI*     | N/A | 56.3 | 65.1 |
+
 ## MOCO task
 
 #### Data Preparation
