@@ -5,7 +5,7 @@ This repository contains code for [BERT on STILTs](https://arxiv.org/abs/1811.01
 ## Trained Models
 
 | Base Model  | Target Task | Download | bert Score | cert Score |
-| :---: | :---: | :---: | :---: | :---: | :---: |
+| :---: | :---: | :---: | :---: | :---: |
 | BERT-Large   | **CoLA**   | [Link](https://drive.google.com/file/d/1bYuvIrnYjI-22xd6koYdDlkgLMtN6Uey/view?usp=sharing) | 60.9 | 62.8 |
 | BERT-Large   | **SST**    | [Link](https://drive.google.com/file/d/1M0ubTzGO4oNC7szc6bRxMIf81iTWgAPL/view?usp=sharing) | - | - |
 | BERT-Large   | **MRPC**   | [Link](https://drive.google.com/file/d/1b0FdK-95yLk_P2ro009opSRX6GgwegGB/view?usp=sharing) | - | - |
