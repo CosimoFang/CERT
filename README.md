@@ -6,15 +6,15 @@ This repository contains code for [BERT on STILTs](https://arxiv.org/abs/1811.01
 
 | Base Model  | Target Task | Download | bert Score | cert Score |
 | :---: | :---: | :---: | :---: | :---: |
-| BERT-Large   | **CoLA**   | [Link](https://drive.google.com/file/d/1bYuvIrnYjI-22xd6koYdDlkgLMtN6Uey/view?usp=sharing) | 60.9 | 62.8 |
-| BERT-Large   | **SST**    | [Link](https://drive.google.com/file/d/1M0ubTzGO4oNC7szc6bRxMIf81iTWgAPL/view?usp=sharing) | - | - |
-| BERT-Large   | **MRPC**   | [Link](https://drive.google.com/file/d/1b0FdK-95yLk_P2ro009opSRX6GgwegGB/view?usp=sharing) | - | - |
-| BERT-Large   | **STS-B**  | [Link](https://drive.google.com/file/d/1VWZbqFvM2myLoE2-uVh-KtAUmhgS9anb/view?usp=sharing) | - | - |
-| BERT-Large   | **QQP**    | [Link](https://drive.google.com/file/d/1d5KMckz2txwYtE_wGL6g8591nGFw9Vid/view?usp=sharing) | - | - |
-| BERT-Large   | **MNLIm**   | [Link](https://drive.google.com/file/d/1na4cULKs5qe9odhF0qA-x4H2ZZKXNl7N/view?usp=sharing) | - | - | 
-| BERT-Large   | **MNLImm**   | [Link](https://drive.google.com/file/d/1na4cULKs5qe9odhF0qA-x4H2ZZKXNl7N/view?usp=sharing) | - | - | 
-| BERT-Large   | **QNLI**   | [Link](https://drive.google.com/file/d/1cHehR1PXxQ38UrKBdzwUCykZcKoIUeCv/view?usp=sharing) | 92.1 | 92.5 |
-| BERT-Large   | **RTE**    | [Link](https://drive.google.com/file/d/1YIYiqcBTXRCMh8gvKnGCO0mXuhR6PnKF/view?usp=sharing) | 72.1 | 74.0 |
+| BERT-Large   | **CoLA**   | N/A | 60.9 | 62.8 |
+| BERT-Large   | **SST**    | N/A | - | - |
+| BERT-Large   | **MRPC**   | N/A | - | - |
+| BERT-Large   | **STS-B**  | N/A | - | - |
+| BERT-Large   | **QQP**    | N/A | - | - |
+| BERT-Large   | **MNLIm**   | N/A | - | - | 
+| BERT-Large   | **MNLImm**   | N/A | - | - | 
+| BERT-Large   | **QNLI**   | N/A | 92.1 | 92.5 |
+| BERT-Large   | **RTE**    | N/A | 72.1 | 74.0 |
 | BERT-Large   | WNLI*     | N/A | - | - |
 
 
