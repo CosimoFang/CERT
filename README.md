@@ -25,7 +25,7 @@ After training, you can extract encoder_k from the whole model with
 
 *python trans.py*
 
-num_labels=2,  # The number of output labels--2 for binary classif# You can increase this for mul 
+*num_labels=2* (The number of output labels--2 for binary classifier) You can increase this for multiple classification 
 
 =======
 
