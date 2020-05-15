@@ -44,6 +44,7 @@ You will also need to set the two following environment variables:
 To generate validation/test predictions, as well as validation metrics, run something like the following:
 
 ```bash
+export GLUE_DIR=./data/MNLI 
 export TASK=rte
 export BERT_LOAD_PATH=path/to/mnli__rte.p
 export OUTPUT_PATH=rte_output
