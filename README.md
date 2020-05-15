@@ -106,7 +106,7 @@ python train.py \
     --learning_rate 2e-5 \
     --output_dir $OUTPUT_PATH
 ``` 
-You can take [example.sh](https://github.com/ColeFang/CERT/edit/master/example.sh) as an example.
+You can take [example.sh](https://github.com/ColeFang/CERT/blob/master/example.sh) as an example.
 
 ## Submission to GLUE leaderboard
 
