@@ -70,7 +70,8 @@ python train.py \
 We recommend training with a batch size of 16/24/32.
 
 ```bash
-export GLUE_DIR=./data/MNLI                                                                                                export BERT_ALL_DIR=./   
+export GLUE_DIR=./data/MNLI                                                                                              
+export BERT_ALL_DIR=./   
 export TASK=mnli
 export OUTPUT_PATH=mnli_output
 
