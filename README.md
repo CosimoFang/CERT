@@ -123,7 +123,7 @@ cp -R cache/submission_template /path/to/new_submission
 After running a fine-tuned/pretrained model on a task with the `--do_test` argument, a folder (e.g. `rte_output`) will be created containing `test_preds.csv` among other files. Run the following command to convert `test_preds.csv` to the submission format in the output folder.
 
 ```bash
-python glue/format_for_glue.py 
+python format_for_glue.py\
     --task-name rte \
     --input-base-path /path/to/rte_output \
     --output-base-path /path/to/new_submission
