@@ -139,13 +139,13 @@ class MoCo(nn.Module):
             self._momentum_update_key_encoder()  # update the key encoder
 
             # shuffle for making use of BN
-            #sen_k, idx_unshuffle = self._batch_shuffle_ddp(sen_k)
+            sen_k, idx_unshuffle = self._batch_shuffle_ddp(sen_k)
 
             k = self.encoder_k(sen_k, mask_k)  # keys: NxC
             k = nn.functional.normalize(k[0], dim=1)
 
             # undo shuffle
-            #k = self._batch_unshuffle_ddp(k, idx_unshuffle)
+            k = self._batch_unshuffle_ddp(k, idx_unshuffle)
 
 
         l_pos = torch.einsum('nc,nc->n', [q, k]).unsqueeze(-1)
@@ -160,7 +160,7 @@ class MoCo(nn.Module):
 
         # labels: positive key indicators
         labels = torch.zeros(logits.shape[0], dtype=torch.long).cuda()
-
+	self._dequeue_and_enqueue(k)
         return logits, labels
 
 # utils
