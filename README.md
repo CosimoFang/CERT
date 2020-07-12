@@ -16,9 +16,14 @@ Before training, you need to build the moco_model with *mkdir moco_model*
 #### Train
 You need to change the number of negtive samples in MOCO.py *line 84* , you can also change the epoch: *line 41*, batch size:*line 45*, learning rate:*line 50*, and temperature: *line 90*
 
-You can train on the MOCO task with:
+To do unsupervised pre-training, run:
+```
+python MOCO.py \
+  --lr 0.0001 \
+  --batch-size 32 \
+  --dist-url 'tcp://localhost:10001' --multiprocessing-distributed --world-size 1 --rank 0 \
+```
 
-*CUDA_VISIBLE_DEVICES=0 python MOCO.py*
 
 #### Transform Model
 
